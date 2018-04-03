@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://git.daojia-inc.com/jz-ios-component/component-test.git", :tag => "0.0.1" }
 
-  s.source_files  = "component-test", "component-test/TwoDementionArray/TwodementionArray.{h,m}"
+  s.source_files  = "component-test/TwoDementionArray/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
